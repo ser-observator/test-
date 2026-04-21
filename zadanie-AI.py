@@ -36,4 +36,5 @@
 #        print('большое')
 #print('а хотя нет, угадал')
 
-#5 
+#5 Списки (List)
+fruts=['aplle', 'banan', 'cherry', 'perra', 'coffe beans']
