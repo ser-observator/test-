@@ -37,4 +37,9 @@
 #print('а хотя нет, угадал')
 
 #5 Списки (List)
-fruts=['aplle', 'banan', 'cherry', 'perra', 'coffe beans']
+#fruits=['aplle', 'banan', 'cherry', 'perra', 'coffe beans']
+#for fruit in fruits:
+#    print (fruit)
+#fruits.append('mango')
+#print (f'{fruits} новый в списке')
+
