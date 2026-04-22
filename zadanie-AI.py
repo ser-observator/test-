@@ -43,7 +43,7 @@
 #fruits.append('mango')
 #print (f'{fruits} новый в списке')
 
-#6 Словари (Dictionary) - сложно
+#6 Словари (Dictionary) - сложно (списал)
 #
 #a= {
 #    'Имя': 'Андрей',
@@ -52,3 +52,23 @@
 #}
 #for keys, valent in a.items():
 #    print(f'{keys}: {valent}')
+
+#7. Функции
+#a=int(input('a='))
+#b=int(input('b='))
+#def sum(a,b):
+#    return a+b
+#result= sum(a,b)
+#print(result)
+
+#8 Функция с проверкой
+#def simple(a):
+#    if a % 2 == 0:
+#        print ('чётное')
+#    else:
+#        print('нечётное')
+#a=int(input())
+#simple(a)
+
+#9 Обработка списков
+list=[]
