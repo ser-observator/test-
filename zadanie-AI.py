@@ -1,4 +1,5 @@
 #!/usr/bin/env pnthon3
+
 #1 Работа с пременой
 #a=str(input("ваше имя: "))
 #b=int(input('ваш возраст: '))
@@ -50,7 +51,7 @@
 #    'Оценка': (4),
 #}
 #for keys, value in a.items():
-#    print(f'{keys}: {valent}')
+#    print(f'{keys}: {value}')
 
 #7. Функции
 #a=int(input('a='))
@@ -67,13 +68,15 @@
 #        return False
 #    for i in range(2, int( number**0.5)+ 1 ):
 #        if number % i == 0:
-#            return True
+#            return False
 #    else:
 #        return False
 #print(simple())
+
 #9 Обработка списков
-#list=[0]
-#list +=(input('список чисел: '))
-#check=0
+#list=input('список чисел(через пробел): ')
+#number= [int(x) for x in list.split()]
 #print(list)
-#def calculator(a):
+#print (f'максиальное:{max(number)}')
+#print (f'минимальное:{min(number)}')
+#print (f'среднее:{sum (number)}/{len (number)}')
