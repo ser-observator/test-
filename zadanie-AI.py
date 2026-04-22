@@ -25,15 +25,14 @@
 
 #4 цикл while
 #import random
-#secret=random.random()*100//10 #само загадное число до 100
+#secret=random.random(1,10) #само загадное число до 10 (нейронка исправила до 10)
 #number=0
 #while secret !=number:
 #    number= int(input('введи чесло, чтобы угадать(целые): '))
-#    print ('не угадал, но число')
 #    if number<secret:
-#        print('малое')
+#        print('не угадал, но малое')
 #    elif number>secret:
-#        print('большое')
+#        print('не угадал, но большое')
 #print('а хотя нет, угадал')
 
 #5 Списки (List)
@@ -48,9 +47,9 @@
 #a= {
 #    'Имя': 'Андрей',
 #    'Возраст': 20,
-#    'Оценка: хорошая': (4),
+#    'Оценка': (4),
 #}
-#for keys, valent in a.items():
+#for keys, value in a.items():
 #    print(f'{keys}: {valent}')
 
 #7. Функции
@@ -61,14 +60,20 @@
 #result= sum(a,b)
 #print(result)
 
-#8 Функция с проверкой
-#def simple(a):
-#    if a % 2 == 0:
-#        print ('чётное')
+# 8 Функция с проверкой
+#number= int(input('простое ли число: '))
+#def simple():
+#    if number <2:
+#        return False
+#    for i in range(2, int( number**0.5)+ 1 ):
+#        if number % i == 0:
+#            return True
 #    else:
-#        print('нечётное')
-#a=int(input())
-#simple(a)
-
+#        return False
+#print(simple())
 #9 Обработка списков
-list=[]
+#list=[0]
+#list +=(input('список чисел: '))
+#check=0
+#print(list)
+#def calculator(a):
