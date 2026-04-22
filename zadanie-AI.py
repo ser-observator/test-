@@ -42,3 +42,4 @@
 #    print (fruit)
 #fruits.append('mango')
 #print (f'{fruits} новый в списке')
+
