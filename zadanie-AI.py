@@ -43,3 +43,12 @@
 #fruits.append('mango')
 #print (f'{fruits} новый в списке')
 
+#6 Словари (Dictionary) - сложно
+#
+#a= {
+#    'Имя': 'Андрей',
+#    'Возраст': 20,
+#    'Оценка: хорошая': (4),
+#}
+#for keys, valent in a.items():
+#    print(f'{keys}: {valent}')
