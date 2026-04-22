@@ -80,3 +80,6 @@
 #print (f'максиальное:{max(number)}')
 #print (f'минимальное:{min(number)}')
 #print (f'среднее:{sum (number)}/{len (number)}')
+
+#10  Строки (String)
+str(input('запиши слово: '))
