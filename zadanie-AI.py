@@ -86,11 +86,11 @@
 #Напишите программу, которая проверяет, 
 #является ли введённая строка палиндромом 
 #(читается одинаково в обе стороны).
-text = input('запиши слово: ')
-text= text.lower()
-reversed= text[::-1]
-print(reversed)
-if  reversed == text:
-    print ('полярный')
-else:
-    print('не полярный')
+#text = input('запиши слово: ')
+#text= text.lower()
+#reversed= text[::-1]
+#print(reversed)
+#if  reversed == text:
+#    print ('полярный')
+#else:
+#    print('не полярный')
