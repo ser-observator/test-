@@ -82,4 +82,15 @@
 #print (f'среднее:{sum (number)}/{len (number)}')
 
 #10  Строки (String)
-str(input('запиши слово: '))
+#Упражнение: 
+#Напишите программу, которая проверяет, 
+#является ли введённая строка палиндромом 
+#(читается одинаково в обе стороны).
+text = input('запиши слово: ')
+text= text.lower()
+reversed= text[::-1]
+print(reversed)
+if  reversed == text:
+    print ('полярный')
+else:
+    print('не полярный')
