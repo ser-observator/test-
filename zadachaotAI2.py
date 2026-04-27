@@ -5,20 +5,10 @@
 #print (f'Прив,{name}!')
 
  # Задание 2: Простые арифметические операции
-a=int(input('a='))
-b=int(input('b='))
-c=input('операция= ')
-if c=='+':
-    print (a + b)
-elif c=='-':
-    print (a - b)
-elif c== '//':
-    print (a//b)
-elif c== '%':
-    print (a%b)
-elif c== '*':
-    print (a*b)
-elif c== '**':
-    print (a**b)
-if c == '/' and b==0:
-    print ('НЕВОЗМОЖНО')
+primer=input('пример=')
+try:
+    print(eval(primer))
+except ZeroDivisionError:
+    print ('невозможно')
+except:
+    print('невернный ввод')
