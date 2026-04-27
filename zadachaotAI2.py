@@ -5,9 +5,20 @@
 #print (f'Прив,{name}!')
 
  # Задание 2: Простые арифметические операции
-otvet=[input("пример: ")]
-otvet= otvet.index
-a= otvet [0]
-b= otvet [2]
-c= otvet [1]
-print (a, c, b)
+a=int(input('a='))
+b=int(input('b='))
+c=input('операция= ')
+if c=='+':
+    print (a + b)
+elif c=='-':
+    print (a - b)
+elif c== '//':
+    print (a//b)
+elif c== '%':
+    print (a%b)
+elif c== '*':
+    print (a*b)
+elif c== '**':
+    print (a**b)
+if c == '/' and b==0:
+    print ('НЕВОЗМОЖНО')
