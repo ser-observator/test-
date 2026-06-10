@@ -87,5 +87,6 @@
 
 
 
-#https://education.yandex.ru/ege/inf/task/998fbc59-2d80-4b1c-9ac4-6b6386b090ed
+# https://education.yandex.ru/ege/inf/task/1fba1cbc-57aa-4874-b06d-1b434166e30c
+# https://education.yandex.ru/ege/inf/task/998fbc59-2d80-4b1c-9ac4-6b6386b090ed
 #ебись нахуй
