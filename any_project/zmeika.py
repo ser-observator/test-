@@ -23,7 +23,7 @@ while game_running:
                     row += 'o'
                 elif (x,y) == food:
                     row += "*"
-                else
+                
     head_x, head_y = snake[0]
     new_head_x = head_x + move[0]
     new_head_y = head_y + move[1]
