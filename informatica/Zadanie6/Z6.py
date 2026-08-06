@@ -26,3 +26,17 @@
 #    fd(63*k)
 #    rt(90)
 #exitonclick()
+
+#https://education.yandex.ru/ege/inf/task/a9b4ee81-7aca-4fca-9eec-1801673d12f2
+
+from turtle import *
+speed(1)
+screensize(1500,1500)
+k=10
+
+
+rt(30)
+for _ in range(10):
+    fd(14*k)
+    rt(120)
+exitonclick()
