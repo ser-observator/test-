@@ -30,7 +30,7 @@
 #https://education.yandex.ru/ege/inf/task/a9b4ee81-7aca-4fca-9eec-1801673d12f2
 
 from turtle import *
-speed(1)
+speed(0)
 screensize(1500,1500)
 k=10
 
