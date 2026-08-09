@@ -29,23 +29,58 @@
 
 #https://education.yandex.ru/ege/inf/task/a9b4ee81-7aca-4fca-9eec-1801673d12f2
 
-from turtle import *
-tracer(0)
-speed(0)
-screensize(150,150)
-k=20
-lt(90)
+# from turtle import *
+# tracer(0)
+# speed(0)
+# screensize(150,150)
+# k=20
+# lt(90)
 
-rt(45)
-for _ in range(7):
-    forward(5*k)
-    rt(45)
-    forward(10*k)
-    rt(135)
-penup()
+# rt(45)
+# for _ in range(7):
+#     forward(5*k)
+#     rt(45)
+#     forward(10*k)
+#     rt(135)
+# penup()
 
-for x in range(-20,20+1):
-    for y in range(-20,20+1):
-        setpos(x*k,y*k)
-        dot(5, 'red')
-exitonclick()
+# for x in range(-20,20+1):
+#     for y in range(-20,20+1):
+#         setpos(x*k,y*k)
+#         dot(5, 'red')
+# exitonclick()
+
+#https://education.yandex.ru/ege/inf/task/e13ee1f0-af4c-485b-a7c0-9fb0e5ef76a5
+#72 ответ
+# from turtle import *
+# tracer(0)
+# speed(0)
+# screensize(1500,1500)
+# k=20
+# lt(90)
+
+# for _ in range(2):
+#     fd(13*k)
+#     rt(90)
+#     fd(18*k)
+#     rt(90)
+# pu()
+
+# fd(5*k)
+# rt(90)
+# fd(9*k)
+# lt(90)
+
+# pd()
+# for _ in range(2):
+#     fd(11*k)
+#     rt(90)
+#     fd(7*k)
+#     rt(90)
+# pu()
+
+# for x in range(-20,20+1):
+#     for y in range(-20,20+1):
+#         setpos(x*k,y*k)
+#         dot(5, 'red')
+# exitonclick()
