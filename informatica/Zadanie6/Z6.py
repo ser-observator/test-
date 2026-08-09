@@ -33,10 +33,5 @@ from turtle import *
 speed(0)
 screensize(1500,1500)
 k=10
+lt(90)
 
-
-rt(30)
-for _ in range(10):
-    fd(14*k)
-    rt(120)
-exitonclick()
