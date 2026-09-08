@@ -95,3 +95,14 @@
 #     if slovo.startswith('МН'):
 #         k+=1
 #         print (k, slovo)
+
+#https://education.yandex.ru/ege/inf/training/8/task/2?examTaskId=7e0b4dbb-b87d-4f1a-80e3-fdf2a1a50a3e&examTaskNumber=8&solveLinked=true&categoryId=ed62f12f-ceed-4bde-a9f4-a7418677f2fa&categoryId=cb6e105f-1d6a-43fb-8a80-51dd775a3188&from=main
+#1003, ответ
+# from itertools import product
+# k=0
+# for i in product('ИНЬЮ', repeat=5):
+#     slovo = ''.join(i)
+#     k+=1
+#     if slovo.count('И') + slovo.count('Ю')==2:
+#        last_k= k
+# print(last_k)
