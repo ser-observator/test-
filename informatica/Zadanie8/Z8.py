@@ -46,14 +46,29 @@
 # print (k)
 
 
-from itertools import product
-k=0
-for i in product('0123456789', repeat=4):
-    number = ''.join(i)
-    if number[0] != '0':
-        if len(set(number)) == len(number):
-            number = number.replace('2', '0').replace('4', '0').replace('6', '0').replace('8', '0')
-            number = number.replace('3', '1').replace('5', '1').replace('7', '1').replace('9', '1')
-            if number.count ('00') == 0 and number.count('11')==0:
-                k += 1
-print (k)
+# from itertools import product, permutations
+# k=0
+# for i in permutations(range(10), 4):
+#     if i[0] != 0:
+#         if i[0] % 2 != i[1] % 2 != i[2] % 2 != i[3] % 2:
+#             k += 1
+    
+
+# print (k)
+
+# from itertools import product
+# number=0
+# for i in product(sorted('БАТЫР'), repeat=5):
+#     slovo = ''.join(i)
+#     number +=1
+#     if slovo.count('Ы') == 0 and slovo.count('АА') == 0:
+#         print(number)
+#         break
+
+# from itertools import product
+# number=0
+# for i in product(sorted('ЛАЙМ'), repeat=5):
+#     slovo = ''.join(i)
+#     number +=1
+#     if slovo.count('М') <=1 and slovo.count('ЛЛ')==0:
+#         print(number)
