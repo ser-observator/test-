@@ -56,3 +56,11 @@
 
 # print (k)
 
+from itertools import product
+number=0
+for i in product(sorted('БАТЫР'), repeat=5):
+    slovo = ''.join(i)
+    number +=1
+    if slovo.count('Ы') == 0 and slovo.count('АА') == 0:
+        print(number)
+        break
