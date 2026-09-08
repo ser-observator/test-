@@ -14,4 +14,12 @@
     # if count==211:
         # break
 
+#https://youtu.be/BudEmjf_RvM?si=7s5ozK-NrMLMGcgy
+from itertools import product
 
+k=0
+for i in product('ЭТАН', repeat=5):
+    slovo = ''.join(i)
+    if (slovo.count('Э') + slovo.count('А')) == 1:
+        k += 1
+print (k)

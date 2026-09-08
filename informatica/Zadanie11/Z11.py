@@ -1,1 +1,2 @@
-#https://education.yandex.ru/ege/inf/task/931ae1db-0b46-425f-94c7-111b6adfbba2
+#https://education.yandex.ru/ege/inf/task/298579d9-a483-4edc-8be5-167e3464430f
+#13, но тяжело
