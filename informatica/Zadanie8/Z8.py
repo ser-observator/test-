@@ -46,12 +46,13 @@
 # print (k)
 
 
-from itertools import product, permutations
-k=0
-for i in permutations(range(10), 4):
-    if i[0] != 0:
-        if i[0] % 2 != i[1] % 2 != i[2] % 2 != i[3] % 2:
-            k += 1
+# from itertools import product, permutations
+# k=0
+# for i in permutations(range(10), 4):
+#     if i[0] != 0:
+#         if i[0] % 2 != i[1] % 2 != i[2] % 2 != i[3] % 2:
+#             k += 1
     
 
-print (k)
+# print (k)
+
