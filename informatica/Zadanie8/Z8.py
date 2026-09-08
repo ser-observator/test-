@@ -72,3 +72,12 @@
 #     number +=1
 #     if slovo.count('М') <=1 and slovo.count('ЛЛ')==0:
 #         print(number)
+
+
+# from itertools import product
+# number=0
+# for i in product(sorted('СТРОКА'), repeat=5):
+#     slovo = ''.join(i)
+#     number +=1
+#     if number % 2 == 0 and slovo[0] not in 'АСТ' and slovo.count ('О') == 2:
+#         print (number)
