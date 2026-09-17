@@ -25,3 +25,12 @@
 #    F=int(((1==w)==(not((w and x)or y))) <= z)
 #    print (x, y, w, z, F)
 #решено xzyw
+
+#https://inf-ege.sdamgia.ru/problem?id=15814
+
+# from itertools import product
+# print ('x y z w F')
+# for x,y,z,w in product(range(0,2), repeat=4):
+#     F=0
+#     if int((x==(w or y)) or ((w <= z) and (y<=w)))==0:
+#         print (x, y, z, w, F)
